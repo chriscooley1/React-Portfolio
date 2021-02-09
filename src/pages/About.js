@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
       <Project backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
+        <h1>Chris Cooley</h1>
         <h2>They're the Good Boys and Girls</h2>
       </Project>
       <Container style={{ marginTop: 30 }}>
