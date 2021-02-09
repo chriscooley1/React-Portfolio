@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/Hero";
+import Project from "../components/Project";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
@@ -7,10 +7,10 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
+      <Project backgroundImage="https://i.imgur.com/qkdpN.jpg">
         <h1>Pupster</h1>
         <h2>They're the Good Boys and Girls</h2>
-      </Hero>
+      </Project>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">

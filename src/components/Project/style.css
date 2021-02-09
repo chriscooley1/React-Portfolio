@@ -1,11 +1,11 @@
-.hero {
+.project {
   height: 500px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-.hero::after {
+.project::after {
   content: "";
   display: block;
   opacity: .4;
@@ -17,16 +17,16 @@
   background: black;
 }
 
-.hero * {
+.project * {
   position: relative;
   z-index: 2;
 }
 
-.hero h1, .hero h2 {
+.project h1, .project h2 {
   color: white;
 }
 
-.hero h1 {
+.project h1 {
   font-size: 60px;
   padding-top: 140px;
   margin-top: 0;
