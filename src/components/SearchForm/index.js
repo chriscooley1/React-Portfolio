@@ -52,15 +52,15 @@ function SearchForm(props) {
       <div class="col-xl-6 col-sm-12 border-left border-primary mainLinkBox">
         <div class="container linkBox">
           <ul>
-            <li class="phone textContact"><i class="fa fa-phone"></i><span> Phone</span><a href="tel:915-246-2751">
+            <li class="phone textContact"><i class="fa fa-phone"></i><span>Phone</span><a href="tel:915-246-2751">
               (915)246-2751</a></li>
-            <li class="email textContact"><i class="fa fa-envelope"></i><span> Email</span><a
+            <li class="email textContact"><i class="fa fa-envelope"></i><span>Email</span><a
               href="mailto:chriscooley1984@yahoo.com">
               chriscooley1984@yahoo.com</a></li>
-            <li class="github"><i class="fab fa-github"></i><span> Github</span><a
+            <li class="github"><i class="fab fa-github"></i><span>Github</span><a
               href="https://github.com/chriscooley1">
               chriscooley1</a></li>
-            <li class="linkedin"><i class="fab fa-linkedin"></i><span> LinkedIn</span><a
+            <li class="linkedin"><i class="fab fa-linkedin"></i><span>LinkedIn</span><a
               href="https://www.linkedin.com/in/chris-cooley-65057b14/">
               chris-cooley-65057b14</a></li>
           </ul>

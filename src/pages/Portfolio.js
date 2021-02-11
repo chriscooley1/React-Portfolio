@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import API from "../utils/API";
 import Card from "../components/Card";
-import Alert from "../components/Alert";
 
 class Portfolio extends Component {
   state = {
@@ -54,15 +53,22 @@ class Portfolio extends Component {
       <div>
         <h1 className="text-center">Portfolio</h1>
         <h3 className="text-center">
-          Thumbs up on any pups you'd like to meet!
+          React-Portfolio
+        <br></br>
+          Pick-your-pet
+        <br></br>
+          Workday-Scheduler
+        <br></br>
+          Weather-Dashboard
+        <br></br>
+          Note-Taker
+        <br></br>
+          Tech-Blog
         </h3>
         <Card image={this.state.image} handleBtnClick={this.handleBtnClick} />
         <h1 className="text-center">
-          Made friends with {this.state.matchCount} pups so far!
+          Resume
         </h1>
-        <Alert style={{ opacity: this.state.match ? 1 : 0 }} type="success">
-          Yay! That Pup Liked You Too!!!
-        </Alert>
       </div>
     );
   }
