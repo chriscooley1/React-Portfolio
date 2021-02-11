@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-// import { Button } from './Button';
-import './style.css';
+// import { Button } from './CardBtn';
+import './Project.css';
 
 function Project() {
   return (
