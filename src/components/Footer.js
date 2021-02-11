@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './CardBtn';
+import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -15,15 +15,13 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            
             <Link to='/' className='social-logo'>
               Contact Me @
             </Link>
-
           </div>
           <div className='social-icons'>
           {/* eslint-disable-next-line */}
-          <a
+            <a
               className='social-icon-link GitHub'
               href='https://github.com/chriscooley1'
               target='_blank'
@@ -32,7 +30,7 @@ function Footer() {
               <i className="fab fa-github" />
             </a>
             {/* eslint-disable-next-line */}
-          <a
+            <a
               className='social-icon-link LinkedIn'
               href="https://www.linkedin.com/in/chris-cooley-65057b14/"
               target='_blank'
@@ -40,7 +38,7 @@ function Footer() {
             >
               <i className='fab fa-linkedin' />
             </a> 
-            {/* eslint-disable-next-line           */}
+            {/* eslint-disable-next-line */}
             <a
               className='social-icon-link facebook'
               href='https://www.facebook.com/chris.cooley.146/'

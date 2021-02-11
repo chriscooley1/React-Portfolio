@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-// import { Button } from './CardBtn';
+// import { Button } from './Button';
 import './Project.css';
 
 function Project() {
