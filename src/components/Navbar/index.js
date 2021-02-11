@@ -1,48 +1,79 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./style.css";
+import React, { useState, useEffect } from 'react';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
+
 function Navbar() {
-  return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Chris Cooley
-      </Link>
-      <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
+    const [click, setClick] = useState(false);
+    const [button, setButton] = useState(true);
+  
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+  
+    const showButton = () => {
+      if (window.innerWidth <= 960) {
+        setButton(false);
+      } else {
+        setButton(true);
+      }
+    };
+  
+    useEffect(() => {
+      showButton();
+    }, []);
+  
+    window.addEventListener('resize', showButton);
+  
+    return (
+      <>
+        <nav className='navbar'>
+          <div className='navbar-container'>
+            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+              CHRIS COOLEY
             </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/portfolio"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  );
-}
-
-export default Navbar;
+            <div className='menu-icon' onClick={handleClick}>
+              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            </div>
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+              <li className='nav-item'>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                  About Me
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                  to='/portfolio'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                  to='/photography'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Photography
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to='/sign-up'
+                  className='nav-links-mobile'
+                  onClick={closeMobileMenu}
+                >
+                  Sign Up
+                </Link>
+              </li>
+            </ul>
+            {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          </div>
+        </nav>
+      </>
+    );
+  }
+  
+  export default Navbar;
