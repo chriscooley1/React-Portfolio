@@ -17,8 +17,17 @@
   font-size: 3rem;
 }
 
-.portfolio {
+.home {
   background-image: url('/src/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.portfolio {
+  background-image: url('/src/images/img-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +36,7 @@
 }
 
 .photography {
-  background-image: url('/src/images/img-2.jpg');
+  background-image: url('/src/images/img-3.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
