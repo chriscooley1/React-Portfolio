@@ -11,7 +11,7 @@ function Cards() {
           
             <CardItem
               // href="https://katers0259.github.io/Pick-your-pet/"
-              img src="https://github.com/katers0259/Pick-your-pet"
+              img src="https://user-images.githubusercontent.com/69743567/97772219-83cff900-1b0a-11eb-9973-820d6ff72f48.PNG"
               text='Find the perfect pet for you with Pick-your-pet'
               label='Pets'
               path="https://katers0259.github.io/Pick-your-pet/"
