@@ -8,7 +8,7 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-          
+
             <CardItem
               // href="https://katers0259.github.io/Pick-your-pet/"
               img src="https://user-images.githubusercontent.com/69743567/97772219-83cff900-1b0a-11eb-9973-820d6ff72f48.PNG"
@@ -18,7 +18,7 @@ function Cards() {
             />
             <CardItem
               // href="https://fathomless-journey-30707.herokuapp.com/"
-              img src="https://github.com/chriscooley1/Workout-Tracker-HW17"
+              img src='../images/fitness-tracker.png'
               text='Track your daily workouts using this Fitness Tracker'
               label='Fitness'
               path="https://fathomless-journey-30707.herokuapp.com/"
@@ -27,21 +27,21 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               // href=" https://mysterious-temple-74523.herokuapp.com/"
-              src='https://github.com/chriscooley1/Budget-Tracker-HW18'
+              img src='../images/budget-tracker.png'
               text='Track your spending habits with this Budget Tracker'
               label='Budget'
               path=" https://mysterious-temple-74523.herokuapp.com/"
             />
             <CardItem
               // href="https://polar-thicket-33954.herokuapp.com/"
-              src='https://github.com/chriscooley1/Note-Taker-HW11'
+              img src='../images/note-taker.png'
               text='Write down your thoughts with Note Taker'
               label='Notes'
               path="https://polar-thicket-33954.herokuapp.com/"
             />
             <CardItem
               // href="https://pure-mesa-60058.herokuapp.com/"
-              src='https://github.com/johndolacjr/SafelyRent'
+              img src='../images/safely-rent.png'
               text='Rate your tenants with Safley Rent'
               label='Rent'
               path="https://pure-mesa-60058.herokuapp.com/"
