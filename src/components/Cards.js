@@ -17,6 +17,13 @@ function Cards() {
               path="https://katers0259.github.io/Pick-your-pet/"
             />
             <CardItem
+              // href="https://chriscooley1.github.io/Workday-Scheduler-HW5/"
+              img src="https://raw.githubusercontent.com/chriscooley1/Workday-Scheduler-HW5/main/images/Work-Day-Scheduler.png"
+              text='Modify you schedule with Workday Scheduler'
+              label='Scheduler'
+              path="https://chriscooley1.github.io/Workday-Scheduler-HW5/"
+            />
+            <CardItem
               // href="https://fathomless-journey-30707.herokuapp.com/"
               img src='https://raw.githubusercontent.com/chriscooley1/Workout-Tracker-HW17/main/images/fitness-tracker.png'
               text='Track your daily workouts using this Fitness Tracker'
