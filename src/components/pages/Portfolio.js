@@ -8,12 +8,10 @@ export default function Portfolio() {
   return (
   <>
     <h1> <br></br> GitHub Commit History
-      <ReactGhCal username='johndolacjr' className="githubCommits"/>
+      <ReactGhCal username='chriscooley1' className="githubCommits"/>
     </h1>
     <Cards/>
     <Footer />
   </>
-
-
   );
 }

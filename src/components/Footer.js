@@ -38,15 +38,6 @@ function Footer() {
             >
               <i className='fab fa-linkedin' />
             </a>
-            {/* eslint-disable-next-line */}
-            <a
-              className='social-icon-link instagram'
-              href='https://www.instagram.com/adventurefamslc/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i className='fab fa-instagram' />
-            </a>
             {/* eslint-disable-next-line           */}
             <a
               className='social-icon-link facebook'
