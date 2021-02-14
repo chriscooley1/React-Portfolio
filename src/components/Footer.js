@@ -59,7 +59,7 @@ function Footer() {
             {/* eslint-disable-next-line */}
             <a
               className='social-icon-link'
-              href='https://drive.google.com/file/d/1uvlM7sby-M57voPPdrtp8xuFdYiiQhI1/view?usp=sharing'
+              href='https://drive.google.com/drive/folders/1zU9NdXlZms8VoZEwlsVvPoJTiTJQX5eR?usp=sharing'
               target='_blank'
               aria-label='Resume'
             >
