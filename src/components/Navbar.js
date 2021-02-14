@@ -8,7 +8,6 @@ function Navbar() {
     const [button, setButton] = useState(true);
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-  
     const showButton = () => {
       if (window.innerWidth <= 960) {
         setButton(false);
@@ -67,11 +66,11 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+            {/* {button && <Button buttonStyle='btn--outline'></Button>} */}
           </div>
         </nav>
       </>
     );
   }
   
-export default Navbar;
+  export default Navbar;

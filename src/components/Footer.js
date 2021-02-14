@@ -16,7 +16,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              Contact Me @
+              Contact me @
             </Link>
           </div>
           <div className='social-icons'>
@@ -37,8 +37,17 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
-            </a> 
+            </a>
             {/* eslint-disable-next-line */}
+            <a
+              className='social-icon-link instagram'
+              href='https://www.instagram.com/adventurefamslc/'
+              target='_blank'
+              aria-label='Instagram'
+            >
+              <i className='fab fa-instagram' />
+            </a>
+            {/* eslint-disable-next-line           */}
             <a
               className='social-icon-link facebook'
               href='https://www.facebook.com/chris.cooley.146/'
@@ -47,9 +56,10 @@ function Footer() {
             >
               <i className='fab fa-facebook-f' />
             </a>
+            {/* eslint-disable-next-line */}
             <a
               className='social-icon-link'
-              href='/src/images/MyResume.pdf'
+              href='https://drive.google.com/file/d/1uvlM7sby-M57voPPdrtp8xuFdYiiQhI1/view?usp=sharing'
               target='_blank'
               aria-label='Resume'
             >

@@ -2,12 +2,18 @@ import React from 'react';
 import '../../App.css';
 import Cards from '../Cards';
 import Footer from '../Footer';
+import ReactGhCal from 'react-github-calendar';
 
 export default function Portfolio() {
   return (
   <>
-    <Cards />
+    <h1> <br></br> GitHub Commit History
+      <ReactGhCal username='johndolacjr' className="githubCommits"/>
+    </h1>
+    <Cards/>
     <Footer />
   </>
+
+
   );
 }
