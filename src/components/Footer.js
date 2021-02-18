@@ -38,7 +38,7 @@ function Footer() {
             >
               <i className='fab fa-linkedin' />
             </a>
-            {/* eslint-disable-next-line           */}
+            {/* eslint-disable-next-line */}
             <a
               className='social-icon-link facebook'
               href='https://www.facebook.com/chris.cooley.146/'
