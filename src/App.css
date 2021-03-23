@@ -16,8 +16,17 @@
   font-size: 3rem;
 }
 
+.home {
+  background-image: url('/src/images/Falls.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
 .portfolio {
-  background-image: url('/src/images/img-1.jpg');
+  background-image: url('/src/images/Falls.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,9 +35,9 @@
 }
 
 .photography {
-  background-image: url('/src/images/img-3.jpg');
+  background-image: url('/src/images/Rainbow.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
